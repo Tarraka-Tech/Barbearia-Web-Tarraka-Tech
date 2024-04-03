@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./testes/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"
+        defer></script>
+        <script src="./testes/testes.js" defer></script>
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <main class="container py-5">
+            <h1>Barbearia Web <button type="button" class="btn btn-primary btn-all" onclick="testar(0)">Testar todas as funções</button></h1>
+
+            <section id="section_1">
+                <h2>Testar buscaCortePorId()</h2>
+                <button type="button" class="btn btn-primary" onclick="testar(1)">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </button> 
+                         
+            </section>
+            <section id="section_2">
+                <h2>Testar buscaBarbaPorId()</h2>
+                <button type="button" class="btn btn-primary" onclick="testar(2)">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </button>
+            </section>
+            <section id="section_3">
+                <h2>Testar verificaStatusBarberia()</h2>
+                <button type="button" class="btn btn-primary" onclick="testar(3)">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>    
+                </button>
+            </section>
+            <section id="section_4">
+                <h2>Testar retornaTodosCortes()</h2>
+                <button type="button" class="btn btn-primary" onclick="testar(4)">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </button>
+            </section>
+            <section id="section_5">
+                <h2>Testar retornaTodasBarbas()</h2>
+                <button type="button" class="btn btn-primary" onclick="testar(5)">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>    
+                </button>
+            </section>
+            <section id="section_6">
+                <h2>Testar criaPedido()</h2>
+                <button type="button" class="btn btn-primary" onclick="testar(6)">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </button>
+            </section>
+            <section id="section_7">
+                <h2>Testar atualizaPedido()</h2>
+                <button type="button" class="btn btn-primary" onclick="testar(7)">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </button>
+            </section>
+            <section id="section_8">
+                <h2>Testar calculaTotal()</h2>
+                <button type="button" class="btn btn-primary" onclick="testar(8)">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </button>
+            </section>
+        </main>
+    </body>
+</html>

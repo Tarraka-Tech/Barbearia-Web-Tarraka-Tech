@@ -1,0 +1,28 @@
+section{
+    display: flex;
+    margin: 10px auto;
+}
+
+button.btn{
+    margin-left: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1{
+    padding-bottom: 30px; 
+}
+
+button.btn-danger{
+    color: white !important;
+}
+
+.alert{
+    margin-left: 20px !important;
+    margin-bottom: 0 !important;
+    padding: 10px 8px !important;
+}
+
+h2{
+    width: 450px
+}
