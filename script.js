@@ -59,7 +59,7 @@ function criaPedido(nomeCliente, corteId, barbaId) {
     };
 }
 
-function atualizaServico(lista, id, novoValor, novoTipo) {
+function atualizarServico(lista, id, novoValor, novoTipo) {
     const listaAtualizada = lista.map(item => {
         if (item.id === id) {
             return { ...item, tipo: novoTipo, valor: novoValor };
